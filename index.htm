@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<link rel="shortcut icon" href="img/slipknot.jpg" type="image/x-icon">
+
+  <title>ГЛАВНАЯ</title>
+  <meta  charset="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+   <style>
+     .site-footer {
+    background-color: #0A0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:  fixed;
+    left: 75%;
+    bottom: 0;
+    width: 25%;
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1, h2 {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        h1:nth-child(1), h2:nth-child(3) {
+            animation-delay: 0.1s;
+        }
+
+        h1:nth-child(2), p {
+            animation-delay: 0.5s;
+        }
+
+        img {
+            opacity: 0;
+            transform: scale(0.9);
+            animation: fadeInScale 0.5s forwards;
+            animation-delay: 0.7s;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .site-footer {
+            background-color: #0A0000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 75%;
+            bottom: 0;
+            width: 25%;
+        }
+   </style>
+
+</head>
+
+<body>
+
+<p><a name="main"></a></p>
+  <ul class="breadcrumbs">
+   <li><a href="index.htm">Главная</a></li>
+   <li><a href="sostav.htm">Состав</a></li>
+   <li><a href="istoriya.htm">Немного о группе</a></li>
+   <li><a href="instrumenti.htm"> Инструменты</a></li>
+  </ul>
+<h1>Slipknot — тьма, энергия и безумие в каждом треке</h1>
+            <h2>О группе</h2>
+            <p>
+                Slipknot — американская группа из Айовы, созданная в 1995 году.
+                <br>Известны своим уникальным стилем — смесью ню-метала, экстремального металла и хаоса на сцене.
+                <br>Их яркая и мрачная визуальная эстетика, а также мощная музыка принесли группе мировую популярность.
+            </p>
+<img alt="slipknot" src="img/slipkok.jpg">
+
+<h1>Тематика песен</h1>
+<p>Тексты песен пронизаны гневом, нигилизмом, но они энергичные и вселяют уверенность.
+ </p>
+ <p>Примеры песен:</p>
+ <audio controls="controls" title="Slpknot - Nero Forte">
+ <source src="mus/Slipknot - Nero Forte.mp3" type="audio/mpeg">
+  </audio>
+   <audio controls = "controls" title = "Slipknot - Circle">
+ <source src="mus/Slipknot - Circle.mp3" type = "audio/mpeg"></audio>
+
+<h2>Другое</h2>
+<p>Официальный сайт группы:</p>
+<img src="img/qr-code.gif" width="150" alt="qr">
+<br><a href="https://slipknot1.com/">Клик</a>
+
+
+<p><br>Источники: <a href ="#https://ru.wikipedia.org/wiki/Slipknot">Википедия</a>
+<a href = "#https://24smi.org/celebrity/43107-gruppa-slipknot.html">24сми</a>
+<a href = "https://www.last.fm/ru/music/Slipknot"> ласт.фм</a></p>
+ <footer class="site-footer">
+       <p>&copy; Д-я Бажена</p>
+        <p><img src="img/aichkov.png" width="40"></p>
+ </footer>
+</body>
+
+</html>
